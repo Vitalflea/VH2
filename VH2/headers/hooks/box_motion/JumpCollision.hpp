@@ -2,8 +2,6 @@
 
 #include "hooks/data/Hook.hpp"
 
-#include <xmmintrin.h>
-
 class JumpCollision {
 public:
 	JumpCollision(void* address);
