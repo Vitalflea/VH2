@@ -11,6 +11,11 @@ namespace tools {
 	template<typename T = void*>
 	T GetVirtualFunction(void* classBase, unsigned int index, const bool& dereference = true) {
 
+		if (classBase == nullptr) {
+
+			return nullptr;
+		}
+
 		return dereference
 			? reinterpret_cast<T>((*static_cast<std::uintptr_t**>(classBase))[index])
 			: reinterpret_cast<T>((static_cast<std::uintptr_t*>(classBase))[index]);
