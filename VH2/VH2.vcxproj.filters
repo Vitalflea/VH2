@@ -27,10 +27,10 @@
     <ClCompile Include="src\hooks\hooks\box_motion\JumpCollision.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\hooks\tools\Logger.cpp">
+    <ClCompile Include="src\tools\Logger.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\hooks\tools\Tools.cpp">
+    <ClCompile Include="src\tools\Tools.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

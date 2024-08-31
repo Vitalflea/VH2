@@ -93,8 +93,8 @@
     <ClCompile Include="src\hooks\data\AtomicHook.cpp" />
     <ClCompile Include="src\hooks\data\Hook.cpp" />
     <ClCompile Include="src\hooks\hooks\box_motion\JumpCollision.cpp" />
-    <ClCompile Include="src\hooks\tools\Logger.cpp" />
-    <ClCompile Include="src\hooks\tools\Tools.cpp" />
+    <ClCompile Include="src\tools\Logger.cpp" />
+    <ClCompile Include="src\tools\Tools.cpp" />
     <ClCompile Include="src\VH2.cpp" />
   </ItemGroup>
   <ItemGroup>
