@@ -2,10 +2,10 @@
 
 #include "hooks/data/Hook.hpp"
 
-class JumpCollision {
+class InAirCollision {
 public:
-	JumpCollision(void* address);
-	~JumpCollision();
+	InAirCollision(void* address);
+	~InAirCollision();
 
 	static std::int64_t hook(__m128* hitbox, float* rate);
 private:

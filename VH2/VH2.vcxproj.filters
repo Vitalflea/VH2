@@ -24,7 +24,7 @@
     <ClCompile Include="src\hooks\data\Hook.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\hooks\hooks\box_motion\JumpCollision.cpp">
+    <ClCompile Include="src\hooks\hooks\box_motion\InAirCollision.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="src\tools\Logger.cpp">
@@ -33,12 +33,18 @@
     <ClCompile Include="src\tools\Tools.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="src\hooks\hooks\box_motion\sub_1809DF060.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hooks\hooks\box_motion\sub_1809DF220.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="headers\hooks\data\AtomicHook.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="headers\hooks\box_motion\JumpCollision.hpp">
+    <ClInclude Include="headers\hooks\box_motion\InAirCollision.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="headers\hooks\data\Hook.hpp">
@@ -48,6 +54,15 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="headers\tools\Tools.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\hooks\box_motion\sub_1809DF060.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\hooks\box_motion\sub_1809DF220.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\hooks\other\sub_180707F00.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

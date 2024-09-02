@@ -92,15 +92,20 @@
   <ItemGroup>
     <ClCompile Include="src\hooks\data\AtomicHook.cpp" />
     <ClCompile Include="src\hooks\data\Hook.cpp" />
-    <ClCompile Include="src\hooks\hooks\box_motion\JumpCollision.cpp" />
+    <ClCompile Include="src\hooks\hooks\box_motion\InAirCollision.cpp" />
+    <ClCompile Include="src\hooks\hooks\box_motion\sub_1809DF060.cpp" />
+    <ClCompile Include="src\hooks\hooks\box_motion\sub_1809DF220.cpp" />
     <ClCompile Include="src\tools\Logger.cpp" />
     <ClCompile Include="src\tools\Tools.cpp" />
     <ClCompile Include="src\VH2.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="headers\hooks\box_motion\JumpCollision.hpp" />
+    <ClInclude Include="headers\hooks\box_motion\InAirCollision.hpp" />
+    <ClInclude Include="headers\hooks\box_motion\sub_1809DF060.hpp" />
+    <ClInclude Include="headers\hooks\box_motion\sub_1809DF220.hpp" />
     <ClInclude Include="headers\hooks\data\AtomicHook.hpp" />
     <ClInclude Include="headers\hooks\data\Hook.hpp" />
+    <ClInclude Include="headers\hooks\other\sub_180707F00.hpp" />
     <ClInclude Include="headers\tools\Logger.hpp" />
     <ClInclude Include="headers\tools\Tools.hpp" />
   </ItemGroup>
