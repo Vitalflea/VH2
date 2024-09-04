@@ -95,6 +95,7 @@
     <ClCompile Include="src\hooks\hooks\box_motion\InAirCollision.cpp" />
     <ClCompile Include="src\hooks\hooks\box_motion\sub_1809DF060.cpp" />
     <ClCompile Include="src\hooks\hooks\box_motion\sub_1809DF220.cpp" />
+    <ClCompile Include="src\hooks\other\sub_180707F00.cpp" />
     <ClCompile Include="src\tools\Logger.cpp" />
     <ClCompile Include="src\tools\Tools.cpp" />
     <ClCompile Include="src\VH2.cpp" />

@@ -29,7 +29,7 @@ std::int64_t sub_1809DF220::hook(__m128* hitbox, float* a2, float* a3, std::int6
 
 	AtomicHook atomicHook(&m_flag);
 
-	logger::Info("sub_1809DF220 - a2: %f | a3: %f | a4: %lld", *a2, *a3, a4);
+	//logger::Info("sub_1809DF220 - a2: %f | a3: %f | a4: %lld", *a2, *a3, a4);
 
 	return m_original(hitbox, a2, a3, a4);
 }

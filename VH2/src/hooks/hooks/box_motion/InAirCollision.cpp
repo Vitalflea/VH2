@@ -29,7 +29,7 @@ std::int64_t InAirCollision::hook(__m128* hitbox, float* rate) {
 
 	AtomicHook atomicHook(&m_flag);
 
-	logger::Info("InAirCollision - rate: %f", *rate);
+	//logger::Info("InAirCollision - rate: %f", *rate);
 
 	return m_original(hitbox, rate);
 }

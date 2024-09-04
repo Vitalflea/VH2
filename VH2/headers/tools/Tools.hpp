@@ -6,7 +6,7 @@
 namespace tools {
 
 	void OpenConsole();
-	std::uintptr_t FindSignature(const std::string& module, const std::string& bytes, const std::uint8_t& relativeOffsetPod = 0);
+	std::uintptr_t FindSignature(const std::string& module, const std::string& bytes, const std::uint8_t& relativeOffsetPos = 0);
 
 	template<typename T = void*>
 	T GetVirtualFunction(void* classBase, const std::uint32_t& index, const bool& dereference = true) {

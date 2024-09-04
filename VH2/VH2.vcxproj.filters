@@ -39,6 +39,9 @@
     <ClCompile Include="src\hooks\hooks\box_motion\sub_1809DF220.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="src\hooks\other\sub_180707F00.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="headers\hooks\data\AtomicHook.hpp">
