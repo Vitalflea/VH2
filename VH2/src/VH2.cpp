@@ -37,7 +37,7 @@ class RendererUnknown {
 
 class Renderer {
 
-	RendererUnknown* rendererUnkown;
+	RendererUnknown* rendererUnkown;  // 0x0
 	char pad1[0x2A2];				  // 0x8
 	__m128 matrix;					  // 0x2AA
 	char pad2[0x7DE];				  // 0x2C0
