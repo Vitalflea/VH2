@@ -361,3 +361,8 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+/halo2.dll.id0
+/halo2.dll.id1
+/halo2.dll.id2
+/halo2.dll.nam
+/halo2.dll.til
